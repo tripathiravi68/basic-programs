@@ -3,12 +3,12 @@ public class Bubblesort
 {
 	public static void main(String args[])
 	{
-	Scanner sc=new Scanner(System.in);
-	int i,j,temp;
-	System.out.println("enter the Size of arrray");
-	int a=sc.nextInt();
-	int arr[]=new int[a];
-	System.out.println("the arrays are");
+		Scanner sc=new Scanner(System.in);
+		int i,j,temp;
+		System.out.println("enter the Size of arrray");
+		int a=sc.nextInt();
+		int arr[]=new int[a];
+		System.out.println("the arrays are");
 
         for( i=0;i<a;i++)
 	{
@@ -40,7 +40,7 @@ public class Bubblesort
                                  
 	if(flag==0)
 	{
-	break;
+		break;
 	}
 
 
@@ -49,7 +49,7 @@ public class Bubblesort
 	System.out.println("the  sorted arrays are");
         for( i=0;i<a;i++)
 	{
-	System.out.println(arr[i]+" ");
+		System.out.println(arr[i]+" ");
 	}
 
 	 }
